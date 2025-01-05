@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Complete Responsive Personal Portfolio Website Using HTML, CSS &
+      JavaScript | Akash
+    </title>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="portfoliostyle.css" />
+    <!-- Custom JS -->
+    <script src="portfolio.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="active">
+      <a href="#" class="logo">Akash's Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+
+    <!-- Home section -->
+    <section class="home active">
+      <div class="home-detail">
+        <h1>Akash Daya</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Coder">Coder</span>
+          <span style="--i: 3" data-text="Designer">Designer</span>
+          <span style="--i: 2" data-text="Web Developer">Web Developer</span>
+          <span style="--i: 1" data-text="Learner">Learner</span>
+        </h2>
+        <p>
+          I'm an enthusastic, keen and passionate developer. I constantly work
+          to develop my core skills and learn about new technologies. I work
+          primarily on Web Development. I'm currently working on improving my
+          JavaScript & React skills. Ask me about HTML, CSS, JavaScript. I am
+          interested in Artificial Intelligence, Robotics and automation. Apart
+          from development i love travelling, gyming, gaming and exploring new
+          technologies.
+        </p>
+        <div class="btn-sci">
+          <a
+            href="https://drive.google.com/file/d/1PFX07TEMiqiJyijujVw9JV6iLT5VJZqh/view?usp=drive_link"
+            class="btn"
+            >Download Resume</a
+          >
+          <div class="sci">
+            <a
+              href="mailto:Akash.convo@gmail.com?subject=Hello&body=I would like to discuss..."
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="bx bx-envelope"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/akash-daya-746b51343"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/Techsavvydreams"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="bx bxl-github"></i
+            ></a>
+            <a href="https://wa.me/27764120519" target="_blank" rel="noopener">
+              <i class="bx bxl-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="img-home">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="Portfolio img.png" alt="img of Akash" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Developement</h3>
+          <p>
+            As a dedicated web developer, I specialize in creating visually
+            appealing, user-friendly websites tailored to your business needs.
+            Wheather you need a sleek portolio, an engaging e-commerce platform,
+            or a dynamic business site, I deliver solutions that blend
+            functionality and creativity. With a focus on responsive design, SEO
+            optimization, and seamless navigation, I ensure your website stands
+            out in today's competitive digital landscape. Let's turn your vision
+            into a powerful online presence!
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-paint"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>
+            As a UI/UX designer, I craft intuitive and visually engaging digital
+            experiences that prioritize user satisfaction. I specialize in
+            designing interfaces that are not only aesthetically pleasing but
+            also highly functional and user-friendly. By combining creativity
+            with a deep understanding of user behavior, I ensure every design
+            fosters seamless interaction and enhances usability. Let's
+            collaborate to transform your ideas into compelling designs that
+            connect with your audience and drive results!
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>
+            As a graphic designer, I bring your ideas to life through creative
+            and impactful visuals. I specialize in crafting designs that
+            communicate your brand's message, whether it's through logos,
+            marketing materials, or digital content. With a keen eye for detail
+            and a passion for storytelling, I create designs that captivate
+            audiences and leave a lasting impression. Let's work together to
+            transform your vision into powerful visuals that elevate your brand
+            and stand out in any medium!
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-trending-up"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>SEO</h3>
+          <p>
+            As an SEO specialist, I help businesses boost their online
+            visibility and drive organic traffic through tailored optimization
+            strategies. I specialize in keyword research, on-page and off-page
+            SEO, and content optimization to ensure your website ranks higher on
+            search engines. By analyzing trends and performance metrics, I
+            create data-driven plans to improve your search rankings and enhance
+            user engagement. Let's work together to elevate your online presence
+            and turn clicks into conversions!
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-slideshow"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Video Editing</h3>
+          <p>
+            As a video editor, I bring your stories to life through captivating
+            visuals and seamless editing. I specialize in transforming raw
+            footage into polished, engaging content tailored to your vision.
+            Whether it's promotional videos, social media content, or cinematic
+            projects, I focus on enhancing visual appeal, pacing, and
+            storytelling. With a keen eye for detail and a passion for
+            creativity, I ensure every frame captures your audience's attention.
+            Let's collaborate to create videos that leave a lasting impression!
+          </p>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-check-shield"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Maintenance & Updates</h3>
+          <p>
+            I offer comprehensive maintenance and update services to keep your
+            website running smoothly and up-to-date. From fixing bugs and
+            resolving technical issues to implementing new features and
+            optimizing performance, I ensure your site stays functional and
+            relevant. Regular updates enhance security, user experience, and
+            compatibility with the latest technologies. Let me handle the
+            ongoing support, so you can focus on growing your business while
+            your website remains in top shape!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume section -->
+    <section class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire Me?</h2>
+          <p class="desc">
+            Why Hire Me as a Salesperson or Frontend Developer As a salesperson,
+            I excel at building strong client relationships, driving results,
+            and meeting targets with passion and authenticity. My ability to
+            connect with people and understand their needs ensures I deliver
+            solutions that create lasting value. As a frontend developer, I
+            craft user-centric, visually engaging digital experiences using
+            HTML, CSS, and JavaScript, while advancing my React skills. My
+            passion for technology, creativity, and problem-solving drives
+            innovative solutions that stand out. With my dedication,
+            adaptability, and diverse skill set, I'm confident I can make a
+            meaningful impact on your team.
+          </p>
+
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">
+              I have over 10 years of experience in dynamic roles across sales,
+              customer relations, and web development. My expertise spans
+              building strong client connections, crafting user-friendly digital
+              experiences, and delivering results-driven solutions. I am
+              passionate about learning, problem-solving, and leveraging my
+              skills to drive success in any team.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2024 - Present</p>
+                <h3>Learn Frontend - Online Course</h3>
+                <p class="company">Learn Frontend</p>
+                <p>
+                  I'm learning frontend development to create user-friendly,
+                  visually appealing websites and applications. By mastering
+                  HTML, CSS, JavaScript, and frameworks like React, I aim to
+                  build responsive designs and seamless user experiences that
+                  bring ideas to life.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2023 - Present</p>
+                <h3>Free Code Camp - Online Course</h3>
+                <p class="company">Free Code Camp</p>
+                <p>
+                  Through FreeCodeCamp, I can learn coding and web development
+                  from scratch, mastering skills like HTML, CSS, JavaScript, and
+                  Python. I'll build real-world projects, explore data
+                  structures and algorithms, and earn certifications in areas
+                  like frontend, backend, and data analysis. It's a great way
+                  for me to grow as a developer and advance my career.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2019 - 2023</p>
+                <h3>EFFY Jewelry (cruise ship)</h3>
+                <p class="company">EFFY Jewelry</p>
+                <p>
+                  During my time with Effy onboard cruise ships, I specialized
+                  in luxury sales, delivering exceptional customer service to
+                  high-end clientele. I built strong relationships, drove
+                  revenue by exceeding sales targets, and provided personalized
+                  experiences. My role also involved showcasing premium jewelry
+                  collections and fostering a memorable shopping experience for
+                  guests.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2014 - 2018</p>
+                <h3>Fine Watch & Jewelry Specialist</h3>
+                <p class="company">Starboard Cruise Services</p>
+                <p>
+                  While working with Starboard onboard cruise ships, I
+                  specialized in selling fine high-end watches and jewelry to an
+                  international clientele. I provided personalized service,
+                  highlighted the unique craftsmanship of luxury brands, and
+                  consistently exceeded sales targets. My expertise lay in
+                  creating memorable shopping experiences tailored to each
+                  guest's preferences.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2004 - 2013</p>
+                <h3>Sales Representative</h3>
+                <p class="company">Macs Books</p>
+                <p>
+                  At Mac's Books, I managed the sale of a wide range of gifting
+                  and party items, ensuring a personalized and memorable
+                  shopping experience. I assisted customers in finding the
+                  perfect gifts, organized inventory, and maintained attractive
+                  product displays. My role focused on driving sales and
+                  enhancing customer satisfaction through expert recommendations
+                  and excellent service.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              I hold a Diploma in International Travel and Tourism, which
+              equipped me with skills in global travel, customer service, and
+              hospitality. Currently, I am learning frontend development to
+              build user-friendly digital experiences and pursue a career in
+              tech. My diverse educational background allows me to adapt and
+              thrive across industries.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2024 - Present</p>
+                <h3>Learn Frontend - Online Course</h3>
+                <p class="company">Online Course</p>
+                <p>
+                  I'm learning frontend development to create user-friendly,
+                  visually appealing websites and applications. By mastering
+                  HTML, CSS, JavaScript, and frameworks like React, I aim to
+                  build responsive designs and seamless user experiences that
+                  bring ideas to life.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2023 - Present</p>
+                <h3>Free Code Camp - Online Course</h3>
+                <p class="company">Online Course</p>
+                <p>
+                  Through FreeCodeCamp, I can learn coding and web development
+                  from scratch, mastering skills like HTML, CSS, JavaScript, and
+                  Python. I'll build real-world projects, explore data
+                  structures and algorithms, and earn certifications in areas
+                  like frontend, backend, and data analysis. It's a great way
+                  for me to grow as a developer and advance my career.
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2009 - 2011</p>
+                <h3>International Travel & Tourism</h3>
+                <p class="company">College Campus - Parktown</p>
+                <p>
+                  I earned my Diploma in International Travel and Tourism from
+                  College Campus, where I gained comprehensive knowledge and
+                  practical skills in the travel, tourism, and hospitality
+                  industry. The program helped me understand travel planning,
+                  tourism management, customer service excellence, and global
+                  tourism trends, preparing me for a dynamic career in this
+                  exciting field. Which lead me to my exciting career in sales
+                  onboard cruise ships.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              I bring a unique blend of skills to any company, including strong
+              interpersonal abilities, a passion for connecting with people, and
+              a goal-driven mindset. My expertise in sales, communication, and
+              relationship building allows me to create meaningful connections
+              and drive results. With my open-minded approach and dedication to
+              achieving targets, I am committed to contributing to a company's
+              growth and success.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="bx bxl-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-javascript"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-react"></i>
+                <span>React.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-vuejs"></i>
+                <span>Vue.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-tailwind-css"></i>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-nodejs"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-mongodb"></i>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              impedit quibusdam inventore maiores non.
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name: <span>Akash Daya</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Gender: <span>Male</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Age: <span>35 Years Old</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Status: <span>Single</span></p>
+              </div>
+              <div class="resume-item">
+                <p>City: <span>Johannesburg</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Nationality: <span>South African</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Experience: <span>10+ Years</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Full Time: <span>Available</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Freelance: <span>Available</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Phone: <span>(+27) 76 412 0519</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Email: <span>Techsavvydreams@gmail.com</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Languages: <span>English</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio section -->
+    <section class="portfolio">
+      <h2 class="heading">Latest<span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ex?
+            </p>
+            <div class="tech">
+              <p>HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#">
+                <i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Full stack Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ex?
+            </p>
+            <div class="tech">
+              <p>MongoDB, Express.js, React.js, Node.js</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#">
+                <i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ex?
+            </p>
+            <div class="tech">
+              <p>React.js, Tailwind CSS</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#">
+                <i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+            <h3>Full Stack Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ex?
+            </p>
+            <div class="tech">
+              <p>MongoDB, Express.js, AngularJS, Node.js</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#">
+                <i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ex?
+            </p>
+            <div class="tech">
+              <p>Vue.js, Tailwind CSS,</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#">
+                <i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+            <h3>Full Stack Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, ex?
+            </p>
+            <div class="tech">
+              <p>MongoDB, Express.js, Vue.js, Node.js</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#">
+                <i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <!-- Images carousel -->
+          <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="portfolio1.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="portfolio2.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="portfolio3.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="portfolio4.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="portfolio5.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="portfolio6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+            reiciendis impedit ducimus ipsa nihil id recusandae deserunt
+            exercitationem quae consectetur.
+          </p>
+          <div class="contact-detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+27) 76 412 0519</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>Akash.convo@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>
+                58 Leadwood, Mayersdal Nature Estate, Alberton, South Africa,
+                1448
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input type="text" placeholder="Email Subject" required />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
